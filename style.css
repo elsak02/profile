@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
+
+body {
+  font-family: 'Open Sans';
+  background-color: fdfffc;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0px;
+  padding: 30px;
+}
+
+h1, h2 {
+  font-family: 'Raleway';
+  color: 003049;
+  font-size: 35px;
+  line-height : 40px;
+  margin :20px;
+}
+
+h2 {
+  font-size : 25px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+a:hover{
+  color: pink;
+}
+
+.footer {
+  padding: 30px;
+  background-color: cfdbd5;
+  height: 10%;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+}
+
+i{
+  color: grey;
+}
+.container {
+
+  min-height: calc(100vh - 200px);
+  border: solid 2px #cfdbd5;
+}
+
+img {
+border-radius: 50%;
+height: 150px;
+width: 150px;
+padding: 30px;
+object-fit: cover;
+}
+
+.description {
+  padding: 30px auto;
+}
+
+.description p {
+  width: 50%;
+  margin: 30px auto 60px auto;
+}
+
+.description a {
+  border-radius: 20px;
+  background-color: fdfffc;
+  border: 2px solid grey;
+  padding: 20px;
+  height: 20px;
+  color: grey;
+  box-shadow: 2px 2px 2px rgb(30,30,30);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#test-margin {
+  padding-bottom: 50px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  a#wagon-button {
+    margin-bottom: 100px!important;
+    width: 60px;
+  }
+/*
+  #test-margin {
+    padding-bottom: 100px;
+  }*/
+}
+
